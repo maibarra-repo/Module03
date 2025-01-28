@@ -1,9 +1,14 @@
+body {
+    text-align: justify;
+    margin: 1em;
+}
 header {
     text-align: center;
     border-top-style: solid;
     border-bottom-style: solid;
     border-right-style: solid;
     border-right-width: 20px;
+    font-variant: small-caps;
 }
 article {
     display: grid;
@@ -14,11 +19,12 @@ article {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 40px;
+    background-position: center;
 }
 aside {
     float: inline-end;
     border-right-style: solid;
-    border-color: rgb(61, 52, 119);
+    border-color: rgb(188, 200, 59);
     border-width: 20px;
     text-align: right;
     padding-right: 20px;
@@ -36,13 +42,15 @@ h2 {
 }
 section {
     border-style: solid;
-    border-color:green;
+    border-color:rgb(0, 30, 128);
     background-color: beige;
     border-left-width: 40px;
     margin-bottom: 15px;
 }
 footer {
     float: right;
+    color: gray;
+    font-style: italic;
 }
 footer a:link {
     color:gray;
