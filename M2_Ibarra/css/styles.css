@@ -1,0 +1,49 @@
+header {
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-width: 20px;
+}
+article {
+    display: grid;
+    float:left;
+    border-bottom-style: solid;
+    background-image: url("WidgetCoLogo.gif");
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+aside {
+    float: inline-end;
+    border-right-style: solid;
+    border-color: rgb(61, 52, 119);
+    border-width: 20px;
+    text-align: right;
+    padding-right: 20px;
+}
+aside::first-line {
+   font-weight: bold;
+}
+h1 {
+    text-wrap: wrap;
+}
+h2 {
+    padding-left: 10px;
+    font-style: italic;
+    text-align: center;
+}
+section {
+    border-style: solid;
+    border-color:green;
+    background-color: beige;
+    border-left-width: 40px;
+    margin-bottom: 15px;
+}
+footer {
+    float: right;
+}
+footer a:link {
+    color:gray;
+}
